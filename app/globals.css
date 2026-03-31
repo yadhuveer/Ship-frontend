@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.md841 {
+  @media (min-width: 768px) and (max-width: 840px) {
+    background-color: theme('colors.green.500');
+  }
+}
+
+.md840 {
+  @media (min-width: 768px) and (max-width: 840px){
+    
+
+    flex-wrap: wrap;
+  }
+}
+
+.topeye{
+  @media (min-width: 289px) and (max-width: 639px) {
+    top:40%;
+  }
+
+}
+
+
+.topeye280{
+  @media (max-width: 288px) {
+    top:42%;
+  }
+
+}
+
